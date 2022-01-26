@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #74ebd5;
+}
+
+html{
+ 
+    font-family: 'Sedgwick Ave',Arial, Helvetica, sans-serif;
+}
+
+.visor {
+background-color: #5bb3ee;   
+width: 20rem;
+height: 5rem; 
+box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+font-size: 4rem;
+border-radius: 1em;
+text-align: right;
+padding: 3 rem;
+position: relative;
+top: -200px;
+padding-right: 1.5rem;}
+
+.visor > text{
+    position: relative;
+    left: 50px;
+}
+
+.contador {
+cursor: pointer;
+background-color: #00FA9A;
+box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+border-radius: 2em;
+overflow: hidden;
+width: 4rem;
+height: 4rem;
+max-width: 80%;
+position: relative;
+top: -100px;
+left: -220px;
+font-size: 20px;
+}
