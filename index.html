@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador</title>
 
+    <link rel="shortcut icon" href="logo/logo.ico">
      
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,10 +16,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="visor">0</div>
+    <div class="visor" value="0">0</div>
     <div>
-        <button class="contador" onclick="somar();">+</button>
-        <button class="contador" onclick="subtrair();">-</button>
+        <button id="inc" class="contador" onclick="somar();">+</button>
+        <button id="dec" class="contador" onclick="subtrair();">-</button>
+    </div>
+    <div class="seletor">
+        <label for="num">Escolha o número que quer incrementar/decrementar</label>
+        <input id="coiso" type="text" list="num" />
+        <datalist  id="num">
+          
+        </datalist>
     </div>
 </body>
 </html>

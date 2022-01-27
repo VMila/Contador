@@ -30,12 +30,13 @@ border-radius: 1em;
 text-align: right;
 padding: 3 rem;
 position: relative;
+left:200px;
 top: -200px;
 padding-right: 1.5rem;}
 
 .visor > text{
     position: relative;
-    left: 50px;
+    left: 250px;
 }
 
 .contador {
@@ -49,6 +50,32 @@ height: 4rem;
 max-width: 80%;
 position: relative;
 top: -100px;
-left: -220px;
+left: -20px;
 font-size: 20px;
+}
+
+.seletor {
+    border-radius: 2em;
+    position: relative;
+    left: -250px;
+    top: 0;
+}
+#coiso {
+    background-color: lemonchiffon;
+    position: relative;
+    width: 350px;
+    border: 1px solid black;
+    padding: 4px;
+}
+.seletor label {
+    margin-bottom: 0.2rem;
+    display: block;
+}
+#dec {
+    position: relative;
+    left: 30px;
+}
+#inc{
+    position: relative;
+    left: -50px;
 }
