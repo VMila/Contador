@@ -17,8 +17,9 @@ body{
 
 html{
  
-    font-family: 'Sedgwick Ave',Arial, Helvetica, sans-serif;
-}
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+     }
 
 .visor {
 background-color: #5bb3ee;   
