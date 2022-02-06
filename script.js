@@ -11,4 +11,8 @@ function subtrair() {
     visor.textContent = visor.textContent-  document.getElementById('coiso').value;
     
    }
+
+   function reseta() {
+    visor.textContent = 0;  
+   }
    
